@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+.login-box{
+    border-radius: 10px;
+    width: 300px;
+    background-color:rgba(250, 235, 215, 0.788);
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.login-box button{
+    width: 100%;
+    padding: 10px;
+    color:rgb(7, 7, 24);
+    background: #ddd;
+    border-radius: 4px;
+
+}
+.divider{
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
+.divider::before{
+    content: "";
+    width: 100%;
+    top: 50%;
+    left: 0;
+    background: #ddd;
+    position: absolute;
+    height: 1px;
+}
+.divider span{
+    background: #fff;
+    padding:0 10px;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+.social-icons{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
