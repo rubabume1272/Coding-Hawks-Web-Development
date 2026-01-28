@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Landing Page</title>
+    <style>
+        /* General Styles */
+        body { font-family: sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { display: flex; justify-content: space-around; padding: 20px; align-items: center; }
+        nav ul { display: flex; list-style: none; }
+        nav ul li { margin-left: 20px; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(76, 175, 80, 0.8), rgba(76, 175, 80, 0.8)), url('hero-bg.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .btn { background: white; color: #333; padding: 10px 25px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+
+        /* Features Section */
+        .features { display: flex; justify-content: center; padding: 50px; text-align: center; gap: 30px; }
+        .feature-item { flex: 1; max-width: 300px; }
+        .icon-circle { 
+            width: 80px; height: 80px; background: #a4d037; 
+            border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center;
+        }
+
+        /* About Section */
+        .about { display: flex; padding: 80px; align-items: center; background: #f9f9f9; }
+        .about-text { flex: 1; padding-right: 40px; }
+        .about-image { flex: 1; }
+        .about-image img { width: 100%; border-radius: 4px; }
+
+        /* Footer */
+        footer { background: #333; color: white; padding: 40px; display: flex; justify-content: space-around; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><strong>LOGO</strong></div>
+        <ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>Pricing</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>WE HELP YOUR BUSINESS</h1>
+        <p>It is a long established fact that a reader will be distracted...</p>
+        <br>
+        <a href="#" class="btn">LEARN MORE</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <div class="icon-circle">⭐</div>
+            <h3>SEO</h3>
+            <p>Fact that a reader will be distracted by the readable content.</p>
+        </div>
+        <div class="feature-item">
+            <div class="icon-circle">⭐</div>
+            <h3>BRANDING</h3>
+            <p>Fact that a reader will be distracted by the readable content.</p>
+        </div>
+        <div class="feature-item">
+            <div class="icon-circle">⭐</div>
+            <h3>LOGO</h3>
+            <p>Fact that a reader will be distracted by the readable content.</p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-text">
+            <h2>ABOUT US</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        <div class="about-image">
+            <img src="https://via.placeholder.com/400x250" alt="Strategy">
+        </div>
+    </section>
+
+</body>
+</html>
